@@ -346,7 +346,7 @@ export default function Dashboard() {
 
       // Prepare the content parts including both images
       const contents = [
-        { text: "Please create an image showing how this dress would look on this person." },
+        { text: "Please create an image showing how this dress would look on this image of the person given." },
         {
           inlineData: {
             mimeType: getMimeType(dressImage),
