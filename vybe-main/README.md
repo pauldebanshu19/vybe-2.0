@@ -18,7 +18,7 @@ All while anonymously contributing to a real-time trend engine that helps brands
 
 ### 1. Clone the Repo
 ```bash
-git clone https://github.com/Kaushik2003/vybe.git
+git clone https://github.com/pauldebanshu19/vybe-2.0.git
 cd vybe
 ```
 
