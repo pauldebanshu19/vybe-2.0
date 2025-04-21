@@ -346,7 +346,7 @@ export default function Dashboard() {
 
       // Prepare the content parts including both images
       const contents = [
-        { text: "Please create an image showing how this dress would look on this image of the person given." },
+        { text: "You are given two images.One is the image of user and other is the image of the dress.Combine these images perfectly and realistically without any distortions.Imagine and generate how the user will look like upon wearing the dress" },
         {
           inlineData: {
             mimeType: getMimeType(dressImage),
