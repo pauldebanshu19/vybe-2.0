@@ -353,7 +353,7 @@ export default function Dashboard() {
 
       // Prepare the content parts including both images and the custom prompt
       const contents = [
-        { text: customPrompt || "You are given two images.One is the image of user and other is the image of the dress.Combine these images perfectly and realistically without any distortions.Imagine and generate how the user will look like upon wearing the dress.Combine the image of the user with the image of the dress to realistically visualize how the user would look wearing the dress. Ensure the final output is seamless, accurately aligned to the user body, and free from distortions or mismatches in lighting, proportions, or perspective.Make it hyper realistic and extremely detailed and 4K ." },
+        { text: customPrompt + "You are given two images.One is the image of user and other is the image of the dress.Combine these images perfectly and realistically without any distortions.Imagine and generate how the user will look like upon wearing the dress.Combine the image of the user with the image of the dress to realistically visualize how the user would look wearing the dress. Ensure the final output is seamless, accurately aligned to the user body, and free from distortions or mismatches in lighting, proportions, or perspective.Make it hyper realistic and extremely detailed and 4K ." },
         {
           inlineData: {
             mimeType: getMimeType(dressImage),
